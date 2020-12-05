@@ -49,10 +49,6 @@ namespace AoC_2020
                               HairColor.IsValid &&
                               EyeColor.IsValid &&
                               PassportId.IsValid;
-                if (IsValid && result)
-                {
-                    Console.WriteLine(this.ToString());
-                }
                 return result;
             }
         }
@@ -191,7 +187,6 @@ namespace AoC_2020
                 if (base.IsValid)
                 {
                     return _categoryValues.Any(v => v == Value);
-                    //return Value == "amb" || Value == "blu" || Value == "brn" || Value == "gry" || Value == "grn" || Value == "hzl" || Value == "oth";
                 }
                 return false;
             }

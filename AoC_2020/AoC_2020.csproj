@@ -95,9 +95,6 @@
     <Content Include="Input\day4.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Input\day4a.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Input\day5.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
