@@ -24,6 +24,9 @@ namespace AoC_2020
 
             Day5 day5 = new Day5("Input/day5.txt");
             Console.WriteLine(day5);
+
+            Day6 day6 = new Day6("Input/day6.txt");
+            Console.WriteLine(day6);
         }
     }
 }
