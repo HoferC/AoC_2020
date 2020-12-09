@@ -10,6 +10,7 @@ namespace AoC_2020
     {
         static void Main(string[] args)
         {
+            /*
             Day1 day1 = new Day1("Input/day1.txt");
             Console.WriteLine(day1);
 
@@ -30,6 +31,10 @@ namespace AoC_2020
 
             Day7 day7 = new Day7("Input/day7.txt");
             Console.WriteLine(day7);
+            */
+
+            Day8 day8 = new Day8("Input/day8.txt");
+            Console.WriteLine(day8);
         }
     }
 }
