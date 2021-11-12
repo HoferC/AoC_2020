@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AoC_2020
 {
-    struct Coordinate
+    public struct Coordinate
     {
         public int X { get; set; }
         public int Y { get; set; }

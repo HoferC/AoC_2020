@@ -8,6 +8,8 @@ namespace AoC_2020
 {
     class Program
     {
+        public const bool DEBUG = false;
+
         static void Main(string[] args)
         {
             /*
@@ -37,9 +39,12 @@ namespace AoC_2020
 
             Day9 day9 = new Day9("Input/day9.txt");
             Console.WriteLine(day9);
-            */
+            
             Day10 day10 = new Day10("Input/day10.txt");
             Console.WriteLine(day10);
+            */
+            Day11 day11 = new Day11("Input/day11.txt");
+            Console.WriteLine(day11);
         }
     }
 }
